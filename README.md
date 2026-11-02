@@ -1,9 +1,9 @@
-# Página personal de Tu Nombre
+# Página personal de Dali Muñoz Moreno
 
 Página web publicada con **GitHub Pages** para mostrar mi currículum y mis
 proyectos. La dirección es:
 
-https://Dali-dev05.github.io
+https://dali-dev05.github.io
 
 ## Contenido
 
@@ -11,13 +11,16 @@ https://Dali-dev05.github.io
 - `styles.css` — todo el diseño (CSS puro, sin frameworks).
 - `README.md` — este archivo.
 
+## Estado actual
+
+Página completamente rellena con mis datos:
+- **Nombre:** Dali Muñoz Moreno
+- **Email:** dali.dev05@gmail.com
+- **Perfil:** programación, enseñanza y videojuegos
+- **Proyectos:** Harmands Motors y la aplicación de gestión de proveedores de internet
+
 ## Cómo editar
 
-Reemplazan los textos de marcador de posición (es decir, los que empiezan
-con `Tu Nombre` o `Proyecto de ejemplo`) con tus datos reales.
-
-## Páginas de GitHub
-
-La configuración de GitHub Pages usa la rama predeterminada (`master` en este
-repositorio) publicada desde la raíz (`/`). La página tarda unos minutos en
-actualizarse después de hacer push.
+Cualquier texto marcado como `Tu Nombre`, `Proyecto de ejemplo` o similar se
+puede cambiar directamente en los archivos. Los cambios se ven en GitHub
+Pages en ~1–2 minutos después de hacer `git push`.

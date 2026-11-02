@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Nombre — CV y Proyectos</title>
+  <meta
+    name="description"
+    content="Página personal para presentar mi currículum y mis proyectos de desarrollo."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <!--
+    ══════════════════════════════════════════════════════
+    EDICIÓN RÁPIDA
+    ───────────────────────────────
+    1) Cambia "Tu Nombre" por tu nombre real.
+    2) Cambia el email de contacto.
+    3) Reemplaza los textos de "Sobre mí" y los proyectos.
+    4) Si tenés foto, ponla en la carpeta img/ y cámbiala
+       en el avatar (CSS) o sustituye el contenedor.
+    ══════════════════════════════════════════════════════
+  -->
+</head>
+<body>
+  <!-- ===================== NAVEGACIÓN ===================== -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand__mark">TD</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú">
+        <span></span>
+      </label>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#cv">CV</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO / INICIO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="container hero__inner">
+      <div class="hero__media">
+        <div class="avatar" aria-hidden="true">
+          <span class="avatar__initials">TD</span>
+          <!-- Podes reemplazar este div por: <img src="img/tu-foto.jpg" alt="Foto de Tu Nombre" /> -->
+        </div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Hola, soy</p>
+        <h1 class="name">Tu Nombre</h1>
+        <p class="role">
+          Desarrollador Web
+          <span class="role-highlight">•</span>
+          <span class="role-sub">Diseño de experiencias y construcción de productos</span>
+        </p>
+
+        <p class="summary">
+          Involucrado en la creación de interfaces web modernas, rápidas y
+          accesibles. Me gusta pasar de la idea a un producto funcional,
+          aprendiendo constantemente y trabajando en equipo.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#cv">Ver mi CV</a>
+          <a class="btn btn--ghost" href="#proyectos">Ver proyectos</a>
+        </div>
+
+        <div class="hero__social">
+          <a href="mailto:tu@correo.com">Email</a>
+          <a href="https://github.com/Dali-dev05" target="_blank" rel="noopener">GitHub</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE MÍ ===================== -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <h2 class="section-title">Sobre mí</h2>
+      <p class="section-lead">
+        Un breve recorrido de lo que hacé, a qué me dediqué y qué busco ahora.
+      </p>
+
+      <div class="cards two-col">
+        <article class="card">
+          <h3>Quiénes soy</h3>
+          <p>
+            Desarrollador con pasión por crear productos que resuelven
+            problemas reales. Me enfoco en escribir código limpio, pensando
+            en el usuario final y entregando valor de forma rápida.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Qué busco</h3>
+          <p>
+            Un entorno donde pueda crecer, asumir desafíos serios y contribuir
+            con calidad a proyectos que generen impacto.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CV / HABILIDADES ===================== -->
+  <section class="section section--light" id="cv">
+    <div class="container">
+      <h2 class="section-title">CV</h2>
+      <p class="section-lead">
+        Experiencia, formación y habilidades. Reemplazá los datos con los tuyos.
+      </p>
+
+      <div class="cards two-col">
+        <!-- Experiencia -->
+        <article class="card card--experience">
+          <h3> Experiencia</h3>
+          <ul class="timeline">
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__year">2024 – actualidad</span>
+                <h4><a href="#">Titular / Desarrollador</a></h4>
+                <p>
+                  Desarrollo de funcionalidades, mantenimiento de la base de
+                  datos y colaboración en las revisiones de diseño.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__year">2023 – 2024</span>
+                <h4><a href="#">Trainee / Desarrollador</a></h4>
+                <p>
+                  Aprendizaje del stack de trabajo, creación de páginas web y
+                  primeros encargos de producción.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Formación -->
+        <article class="card card--education">
+          <h3>Formación</h3>
+          <ul class="timeline">
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__year">2022 – presente</span>
+                <h4><a href="#">Tecnicatura / Carrera</a></h4>
+                <p>
+                  Programación, bases de datos, desarrollo web y metodologías
+                  ágiles.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline__item">
+                <span class="timeline__year">2020 – 2022</span>
+                <h4><a href="#">Bachillerato / Técnico</a></h4>
+                <p>
+                  Estudios técnicos con enfoque en informática y ciencias de la
+                  computación.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Habilidades -->
+        <article class="card card--skills">
+          <h3>Habilidades</h3>
+          <div class="skills">
+            <span class="skill">HTML / CSS</span>
+            <span class="skill">JavaScript / TypeScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Git / GitHub</span>
+            <span class="skill">Tailwind</span>
+            <span class="skill">UI/UX básico</span>
+            <span class="skill">SQL / PostgreSQL</span>
+          </div>
+        </article>
+
+        <!-- Idiomas -->
+        <article class="card card--languages">
+          <h3>Idiomas</h3>
+          <ul class="lang-list">
+            <li>
+              <strong>Español</strong>
+              <span>Nativo</span>
+            </li>
+            <li>
+              <strong>Inglés</strong>
+              <span>Avanzado (B2)</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROYECTOS ===================== -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <h2 class="section-title">Proyectos</h2>
+      <p class="section-lead">
+        Algunas cosas que construí. Reemplazá con tus proyectos reales.
+      </p>
+
+      <div class="grid">
+        <article class="card project">
+          <div class="project__img" style="background: linear-gradient(135deg, #4f46e5, #7c3aed)">
+            <span class="project__tag">Web</span>
+          </div>
+          <div class="project__body">
+            <h3><a href="#">Proyecto de ejemplo 1</a></h3>
+            <p class="project__desc">
+              Breve descripción del proyecto, qué problema resuelve y la
+              tecnología usada.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="#">Ver demo</a>
+              <a class="btn btn--small btn--ghost" href="#">Ver código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project__img" style="background: linear-gradient(135deg, #0891b2, #2dd4bf)">
+            <span class="project__tag">CLI</span>
+          </div>
+          <div class="project__body">
+            <h3><a href="#">Proyecto de ejemplo 2</a></h3>
+            <p class="project__desc">
+              Breve descripción del proyecto, qué problema resuelve y la
+              tecnología usada.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="#">Ver demo</a>
+              <a class="btn btn--small btn--ghost" href="#">Ver código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project__img" style="background: linear-gradient(135deg, #b91c1c, #ef4444)">
+            <span class="project__tag">Frontend</span>
+          </div>
+          <div class="project__body">
+            <h3><a href="#">Proyecto de ejemplo 3</a></h3>
+            <p class="project__desc">
+              Breve descripción del proyecto, qué problema resuelve y la
+              tecnología usada.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" href="#">Ver demo</a>
+              <a class="btn btn--small btn--ghost" href="#">Ver código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="section section--light" id="contacto">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <p class="section-lead">
+        ¿Tenés un proyecto en mente o querés hablar? ¡Escribeme!
+      </p>
+
+      <div class="cards two-col">
+        <article class="card">
+          <h3>Escríbeme</h3>
+          <p class="muted">
+            <a class="link" href="mailto:tu@correo.com">tu@correo.com</a>
+          </p>
+          <p class="muted">
+            Si tenés un código en mente, es mejor escribirme antes de que
+            llegue a mis manos.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Redes</h3>
+          <ul class="social-list">
+            <li>
+              <a href="https://github.com/Dali-dev05" target="_blank" rel="noopener">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="#contacto">Portfolio / Proyectos</a>
+            </li>
+            <li>
+              <a href="mailto:tu@correo.com">Email</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Tu Nombre. Hecho con HTML, CSS y conocimiento.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Actualizá el año automáticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "platform": "web",
+  "mode": "persuade",
+  "designSystem": {
+    "palette": {
+      "canvas": "#fafafa",
+      "surface": "#ffffff",
+      "surfaceElevated": "#f0f0ff",
+      "ink": "#121212",
+      "inkSecondary": "#575757",
+      "inkTertiary": "#737373",
+      "border": "#e4e4e7",
+      "borderFocus": "#6366f1",
+      "accent": "#6366f1",
+      "accentHover": "#4f46e5",
+      "accentSoft": "#e0e7ff",
+      "good": "#16a34a",
+      "error": "#dc2626"
+    },
+    "typography": {
+      "family": "Inter, system-ui, -apple-system, sans-serif",
+      "body": {
+        "size": "1rem",
+        "weight": 400,
+        "lineHeight": 1.65,
+        "measure": "65-75ch"
+      },
+      "display": {
+        "size": "clamp(2.6rem, 5vw, 4.2rem)",
+        "weight": 700,
+        "lineHeight": 1.15,
+        "measure": "40-55ch"
+      },
+      "h1": {
+        "size": "2.25rem",
+        "weight": 700,
+        "lineHeight": 1.2,
+        "measure": "50-65ch"
+      },
+      "h2": {
+        "size": "1.75rem",
+        "weight": 600,
+        "lineHeight": 1.3,
+        "measure": "55-70ch"
+      },
+      "h3": {
+        "size": "1.25rem",
+        "weight": 600,
+        "lineHeight": 1.35,
+        "measure": "60-75ch"
+      }
+    },
+    "space": {
+      "base": 4,
+      "steps": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        32,
+        40,
+        48,
+        64,
+        80,
+        96
+      ]
+    },
+    "radius": {
+      "sm": "6px",
+      "md": "10px",
+      "lg": "16px"
+    },
+    "shadow": {
+      "level0": "none",
+      "level1": "0 1px 2px rgba(18,18,20,0.05)",
+      "level2": "0 4px 18px rgba(18,18,20,0.07)",
+      "level3": "0 12px 40px rgba(18,18,20,0.12)"
+    },
+    "motion": {
+      "durationEntrance": "400ms",
+      "timing": "cubic-bezier(0.22,1,0.36,1)",
+      "reduceMotion": "prefers-reduced-motion: reduce"
+    },
+    "components": {
+      "button": {
+        "primary": "filled accent-soft / accent text",
+        "secondary": "ghost/outline",
+        "radius": "6px",
+        "height": "40px",
+        "font": "label",
+        "focusRing": "2px --c-borderFocus"
+      },
+      "navigation": {
+        "position": "sticky",
+        "foreground": "transparent",
+        "scrolling": "surfaceElev + soft bottom shadow",
+        "suffix": "logo left, links right, thin divider"
+      },
+      "hero": {
+        "lead": "display, centered",
+        "cta": "one primary action",
+        "eyebrow": "none"
+      },
+      "card": {
+        "border": "1px solid --c-border",
+        "shadow": "level-1",
+        "radius": "10px",
+        "nested": false
+      }
+    }
+  },
+  "directionContract": {
+    "thesis": "A personal page that makes the author's real work, skills, and credentials legible in seconds — not a template dashboard, not a portfolio of placeholders.",
+    "ownWorld": "Clean, modern, confident: near-white canvas, near-black ink, one indigo/violet accent, Inter as both display and body, generous whitespace, flattened depth, and a single authored entrance that shows up instead of many scattered effects.",
+    "story": "What the visitor understands: Dali Muñoz Moreno is a practical full-stack developer whose work is readable at a glance. Recruiters land on a CV, scan real projects, and find the contact.",
+    "firstViewport": "Display-led hero: large, confident heading; one job-like subtext; one primary call-to-action. Nothing above the fold competes with the author's name.",
+    "form": "form: new-world / vercel-inspired · count: 1 · seed: none (unavailable)",
+    "finish": "unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance"
+  }
+}
